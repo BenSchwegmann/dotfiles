@@ -1,0 +1,178 @@
+format = """\
+[╭╴](238)\
+$os $username\
+$directory\
+(\
+    $git_branch\
+    $git_status\
+    $git_metrics\
+)\
+(\
+    $java\
+    $nodejs\
+    $rust\
+    $python\
+    $conda\
+    $c\
+    $cpp\
+    $php\
+)\
+$cmd_duration\
+$time
+[╰─](238)$character\
+"""
+
+palette = "dark"
+
+
+[palettes.dark]
+os = "#505050"
+os_symbol = "#FFC799"
+text_primary = "#99FFE4"
+text_secondary = "#FFC799"
+pill = "#232323"
+clang = "#BFEFFF"
+java = "#FFB7B0"
+python = "#FFF0B3"
+node = "#FFB7D2"
+conda = "#DFFFE6"
+php = "#4F5B93"
+duration = "#E9E6FF"
+git_deleted = "#FF8080"
+git_added = "#99FFE4"
+
+
+[character]
+error_symbol = "[─](bold git_deleted)"
+success_symbol = ""
+
+[os]
+format = ' [$symbol](fg:text_secondary)'
+disabled = false
+
+[username]
+format = '[](fg:pill)[$user](bg:pill fg:text_secondary)[](fg:pill)'
+disabled = false
+show_always = true
+
+[directory]
+format = " [](fg:pill)[  $path ]($style)[$read_only]($read_only_style)[](fg:pill)"
+truncation_length = 2
+style = "fg:text_primary bg:pill"
+read_only_style = "fg:text_primary bg:pill"
+before_repo_root_style = "fg:text_primary bg:pill"
+truncation_symbol = "…/"
+truncate_to_repo = true
+read_only ="  "
+
+[time]
+format = " [](fg:pill)[ $time](bg:pill fg:text_primary)[](fg:pill)"
+time_format = "%H:%M"
+disabled = true
+
+[cmd_duration]
+format = " [](fg:pill)[ $duration](bg:pill fg:text_primary)[](fg:pill)"
+min_time = 500
+disabled = true
+
+[git_branch]
+format = " [](fg:pill)[$symbol$branch](fg:text_primary bg:pill)[](fg:pill)"
+symbol = " "
+
+[git_status]
+format = '([ ](fg:pill)[ $all_status$ahead_behind ](bg:pill fg:text_primary)[](fg:pill))'
+disabled = true
+
+[git_metrics]
+format = '([ ](fg:pill)[+$added]($added_style)[ -$deleted]($deleted_style)[](fg:pill))'
+added_style = "fg:git_added bg:pill"
+deleted_style = "fg:git_deleted bg:pill"
+disabled = false
+
+[docker_context]
+disabled=true
+symbol = " "
+
+[package]
+disabled=true
+
+[java]
+format = "[ ](fg:pill)[$symbol$version](bg:pill fg:java)[](fg:pill)"
+version_format = "${raw}"
+symbol = " "
+disabled = true
+
+[nodejs]
+format = "[ ](fg:pill)[$symbol$version](bg:pill fg:nodejs)[](fg:pill)"
+symbol = " "
+version_format = "${raw}"
+disabled=true
+
+[rust]
+format = "[ ](fg:pill)[$symbol$version](bg:pill fg:rust)[](fg:pill)"
+symbol = " "
+version_format = "${raw}"
+disabled=true
+
+[python]
+format = '[ ](fg:pill)[${symbol}${pyenv_prefix}(${version} )(\($virtualenv\))](bg:pill fg:python)[](fg:pill)'
+symbol = " "
+version_format = "${raw}"
+disabled=true
+
+[conda]
+format = "[ ](fg:pill)[$symbol$environment](bg:pill fg:conda)[](fg:pill)"
+symbol = " "
+ignore_base = false
+disabled=true
+
+[c]
+format = "[ ](fg:pill)[$symbol($version(-$name) )](bg:pill fg:clang)[](fg:pill)"
+symbol = " "
+version_format = "${raw}"
+disabled=true
+
+[cpp]
+format = "[ ](fg:pill)[$symbol($version(-$name) )](bg:pill fg:clang)[](fg:pill)"
+symbol = " "
+version_format = "${raw}"
+disabled=true
+
+[php]
+format = "[ ](fg:pill)[$symbol($version(-$name) )](bg:pill fg:php)[](fg:pill)"
+symbol = " "
+version_format = "${raw}"
+disabled=true
+
+
+[os.symbols]
+Alpine = ""
+Amazon = ""
+Android = ""
+Arch = ""
+CentOS = ""
+Debian = ""
+DragonFly = ""
+Emscripten = ""
+EndeavourOS = ""
+Fedora = ""
+FreeBSD = ""
+Gentoo = ""
+Linux = ""
+Macos = ""
+Manjaro = ""
+Mariner = ""
+MidnightBSD = ""
+Mint = ""
+NetBSD = ""
+NixOS = ""
+openSUSE = ""
+Pop = ""
+Raspbian = ""
+Redhat = ""
+RedHatEnterprise = ""
+Redox = ""
+SUSE = ""
+Ubuntu = ""
+Unknown = ""
+Windows = ""

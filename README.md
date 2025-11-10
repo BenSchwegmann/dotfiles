@@ -1,8 +1,12 @@
 <p align="center">
   <h1 align="center">dotfiles</h1>
-</p> 
+</p>
 
 <h2>🌌️ windows terminal <i>with</i> <a href="https://starship.rs/">starship</a></h2>
+## starship
+### 💫 *new* 💫
+#### [dark](./starship/starship.dark.toml)
+![starship-dark](./starship-dark.png)
 <img src="https://github.com/bnshw/dots/assets/81444451/708379a3-14c6-4164-ba09-a19fd97b71f8">
 
 <h2>🐡 <a href="https://ohmyposh.dev/">ohmyposh</a></h2>
