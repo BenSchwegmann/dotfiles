@@ -1,0 +1,529 @@
+{
+  "actions" : [
+    {
+      "actions" : [
+        {
+          "key" : "p",
+          "type" : "application",
+          "value" : "/Applications/Proton Mail.app"
+        },
+        {
+          "key" : "i",
+          "type" : "application",
+          "value" : "/System/Applications/Music.app"
+        },
+        {
+          "key" : "m",
+          "type" : "application",
+          "value" : "/System/Applications/Mail.app"
+        },
+        {
+          "key" : "o",
+          "label" : "Obzi",
+          "type" : "application",
+          "value" : "/Applications/Obsidian.app"
+        }
+      ],
+      "iconPath" : "cat",
+      "key" : "a",
+      "label" : "Apps",
+      "type" : "group"
+    },
+    {
+      "key" : "B",
+      "label" : "Browser",
+      "type" : "application",
+      "value" : "/Applications/Zen.app"
+    },
+    {
+      "actions" : [
+        {
+          "key" : "a",
+          "type" : "application",
+          "value" : "/Applications/Arc.app"
+        },
+        {
+          "key" : "f",
+          "type" : "application",
+          "value" : "/Applications/Firefox.app"
+        },
+        {
+          "key" : "s",
+          "type" : "application",
+          "value" : "/Applications/Safari.app"
+        },
+        {
+          "key" : "b",
+          "type" : "application",
+          "value" : "/Applications/Brave Browser.app"
+        },
+        {
+          "key" : "z",
+          "type" : "application",
+          "value" : "/Applications/Zen.app"
+        }
+      ],
+      "iconPath" : "safari",
+      "key" : "b",
+      "label" : "Browsers",
+      "type" : "group"
+    },
+    {
+      "actions" : [
+        {
+          "key" : "a",
+          "type" : "url",
+          "value" : "raycast://extensions/fernando_barrios/shottr/ssa"
+        },
+        {
+          "key" : "f",
+          "type" : "url",
+          "value" : "raycast://extensions/fernando_barrios/shottr/ssfs"
+        },
+        {
+          "key" : "w",
+          "type" : "url",
+          "value" : "raycast://extensions/fernando_barrios/shottr/ssrg"
+        }
+      ],
+      "iconPath" : "camera.metering.center.weighted.average",
+      "key" : "c",
+      "label" : "Capture",
+      "type" : "group"
+    },
+    {
+      "actions" : [
+        {
+          "key" : "t",
+          "type" : "application",
+          "value" : "/Applications/Ghostty.app"
+        },
+        {
+          "key" : "v",
+          "type" : "application",
+          "value" : "/Applications/Visual Studio Code.app"
+        },
+        {
+          "key" : "z",
+          "type" : "application",
+          "value" : "/Applications/Zed.app"
+        },
+        {
+          "key" : "p",
+          "type" : "application",
+          "value" : "/Users/bnshw/Applications/PhpStorm.app"
+        },
+        {
+          "key" : "i",
+          "type" : "application",
+          "value" : "/Users/bnshw/Applications/IntelliJ IDEA Ultimate.app"
+        },
+        {
+          "key" : "d",
+          "type" : "application",
+          "value" : "/Users/bnshw/Applications/DataGrip.app"
+        }
+      ],
+      "iconPath" : "hammer",
+      "key" : "d",
+      "label" : "Devtools",
+      "type" : "group"
+    },
+    {
+      "actions" : [
+        {
+          "key" : "a",
+          "type" : "folder",
+          "value" : "/Applications"
+        },
+        {
+          "key" : "g",
+          "type" : "folder",
+          "value" : "/Users/bnshw/Documents/git"
+        },
+        {
+          "key" : "h",
+          "type" : "folder",
+          "value" : "/Users/bnshw"
+        },
+        {
+          "key" : "d",
+          "type" : "folder",
+          "value" : "/Users/bnshw/Downloads"
+        },
+        {
+          "key" : "c",
+          "type" : "folder",
+          "value" : "/Users/bnshw/Library/Mobile Documents/com~apple~CloudDocs"
+        }
+      ],
+      "iconPath" : "bookmark",
+      "key" : "g",
+      "label" : "Folders",
+      "type" : "group"
+    },
+    {
+      "actions" : [
+        {
+          "key" : "d",
+          "type" : "application",
+          "value" : "/Applications/Discord.app"
+        },
+        {
+          "key" : "m",
+          "type" : "application",
+          "value" : "/System/Applications/Messages.app"
+        }
+      ],
+      "iconPath" : "message",
+      "key" : "m",
+      "label" : "Messaging",
+      "type" : "group"
+    },
+    {
+      "actions" : [
+        {
+          "key" : "c",
+          "type" : "url",
+          "value" : "raycast://extensions/raycast/system/open-camera"
+        },
+        {
+          "key" : "e",
+          "type" : "url",
+          "value" : "raycast://extensions/raycast/emoji-symbols/search-emoji-symbols"
+        },
+        {
+          "key" : "p",
+          "type" : "url",
+          "value" : "raycast://confetti"
+        },
+        {
+          "iconPath" : "link",
+          "key" : "b",
+          "type" : "url",
+          "value" : "raycast://extensions/raycast/raycast/toggle-bounce-animation"
+        }
+      ],
+      "iconPath" : "character.textbox",
+      "key" : "r",
+      "label" : "Raycast",
+      "type" : "group"
+    },
+    {
+      "actions" : [
+        {
+          "key" : "l",
+          "type" : "url",
+          "value" : "raycast://extensions/raycast/system/lock-screen"
+        },
+        {
+          "iconPath" : "link",
+          "key" : "r",
+          "type" : "url",
+          "value" : "raycast://extensions/raycast/system/restart"
+        },
+        {
+          "iconPath" : "link",
+          "key" : "s",
+          "type" : "url",
+          "value" : "raycast://extensions/raycast/system/shut-down"
+        }
+      ],
+      "iconPath" : "laptopcomputer",
+      "key" : "s",
+      "label" : "System",
+      "type" : "group"
+    },
+    {
+      "actions" : [
+        {
+          "key" : "q",
+          "label" : "workspace q",
+          "type" : "command",
+          "value" : "/opt/homebrew/bin/aerospace workspace 1"
+        },
+        {
+          "key" : "w",
+          "label" : "workspace w",
+          "type" : "command",
+          "value" : "/opt/homebrew/bin/aerospace workspace 2"
+        },
+        {
+          "key" : "e",
+          "label" : "workspace e",
+          "type" : "command",
+          "value" : "/opt/homebrew/bin/aerospace workspace 3"
+        },
+        {
+          "key" : "r",
+          "label" : "workspace r",
+          "type" : "command",
+          "value" : "/opt/homebrew/bin/aerospace workspace 4"
+        },
+        {
+          "key" : "t",
+          "label" : "workspace t",
+          "type" : "command",
+          "value" : "/opt/homebrew/bin/aerospace workspace 5"
+        },
+        {
+          "key" : "f",
+          "label" : "fullscreen",
+          "type" : "command",
+          "value" : "/opt/homebrew/bin/aerospace fullscreen"
+        },
+        {
+          "key" : "F",
+          "label" : "flatten-workspace-tree",
+          "type" : "command",
+          "value" : "/opt/homebrew/bin/aerospace flatten-workspace-tree"
+        },
+        {
+          "actions" : [
+            {
+              "key" : "h",
+              "label" : "left",
+              "type" : "command",
+              "value" : "/opt/homebrew/bin/aerospace join-with left"
+            },
+            {
+              "key" : "j",
+              "label" : "down",
+              "type" : "command",
+              "value" : "/opt/homebrew/bin/aerospace join-with down"
+            },
+            {
+              "key" : "k",
+              "label" : "up",
+              "type" : "command",
+              "value" : "/opt/homebrew/bin/aerospace join-with up"
+            },
+            {
+              "key" : "l",
+              "label" : "right",
+              "type" : "command",
+              "value" : "/opt/homebrew/bin/aerospace join-with right"
+            }
+          ],
+          "key" : "j",
+          "label" : "join-with",
+          "type" : "group"
+        },
+        {
+          "actions" : [
+            {
+              "key" : "a",
+              "label" : "accordion",
+              "type" : "command",
+              "value" : "/opt/homebrew/bin/aerospace layout accordion horizontal vertical"
+            },
+            {
+              "key" : "f",
+              "label" : "floating",
+              "type" : "command",
+              "value" : "/opt/homebrew/bin/aerospace layout floating tiling"
+            },
+            {
+              "key" : "t",
+              "label" : "tiles",
+              "type" : "command",
+              "value" : "/opt/homebrew/bin/aerospace layout tiles vertical horizontal"
+            }
+          ],
+          "key" : "l",
+          "label" : "layout",
+          "type" : "group"
+        },
+        {
+          "actions" : [
+            {
+              "key" : "E",
+              "label" : "move-node-to-workspace b3",
+              "type" : "command",
+              "value" : "/opt/homebrew/bin/aerospace move-node-to-workspace b3"
+            },
+            {
+              "key" : "e",
+              "label" : "move-node-to-workspace b3",
+              "type" : "command",
+              "value" : "/opt/homebrew/bin/aerospace move-node-to-workspace b3 --focus-follows-window"
+            },
+            {
+              "key" : "h",
+              "label" : "left",
+              "type" : "command",
+              "value" : "/opt/homebrew/bin/aerospace move left"
+            },
+            {
+              "key" : "j",
+              "label" : "down",
+              "type" : "command",
+              "value" : "/opt/homebrew/bin/aerospace move down"
+            },
+            {
+              "key" : "k",
+              "label" : "up",
+              "type" : "command",
+              "value" : "/opt/homebrew/bin/aerospace move up"
+            },
+            {
+              "key" : "l",
+              "label" : "right",
+              "type" : "command",
+              "value" : "/opt/homebrew/bin/aerospace move right"
+            },
+            {
+              "key" : "Q",
+              "label" : "move-node-to-workspace b1",
+              "type" : "command",
+              "value" : "/opt/homebrew/bin/aerospace move-node-to-workspace b1"
+            },
+            {
+              "key" : "q",
+              "label" : "move-node-to-workspace b1",
+              "type" : "command",
+              "value" : "/opt/homebrew/bin/aerospace move-node-to-workspace b1 --focus-follows-window"
+            },
+            {
+              "key" : "R",
+              "label" : "move-node-to-workspace b4",
+              "type" : "command",
+              "value" : "/opt/homebrew/bin/aerospace move-node-to-workspace b4"
+            },
+            {
+              "key" : "r",
+              "label" : "move-node-to-workspace b4",
+              "type" : "command",
+              "value" : "/opt/homebrew/bin/aerospace move-node-to-workspace b4 --focus-follows-window"
+            },
+            {
+              "key" : "T",
+              "label" : "move-node-to-workspace a1",
+              "type" : "command",
+              "value" : "/opt/homebrew/bin/aerospace move-node-to-workspace a1"
+            },
+            {
+              "key" : "t",
+              "label" : "move-node-to-workspace a1",
+              "type" : "command",
+              "value" : "/opt/homebrew/bin/aerospace move-node-to-workspace a1 --focus-follows-window"
+            },
+            {
+              "key" : "W",
+              "label" : "move-node-to-workspace b2",
+              "type" : "command",
+              "value" : "/opt/homebrew/bin/aerospace move-node-to-workspace b2"
+            },
+            {
+              "key" : "w",
+              "label" : "move-node-to-workspace b2",
+              "type" : "command",
+              "value" : "/opt/homebrew/bin/aerospace move-node-to-workspace b2 --focus-follows-window"
+            }
+          ],
+          "key" : "m",
+          "label" : "move",
+          "type" : "group"
+        },
+        {
+          "key" : "R",
+          "label" : "reload-config",
+          "type" : "command",
+          "value" : "/opt/homebrew/bin/aerospace reload-config"
+        },
+        {
+          "key" : "s",
+          "label" : "mode resize",
+          "type" : "command",
+          "value" : "/opt/homebrew/bin/aerospace mode resize"
+        },
+        {
+          "key" : "c",
+          "type" : "url",
+          "value" : "raycast://extensions/raycast/window-management/center"
+        }
+      ],
+      "iconPath" : "rectangle.grid.2x2",
+      "key" : "w",
+      "label" : "Aerospace",
+      "type" : "group"
+    },
+    {
+      "actions" : [
+        {
+          "actions" : [
+            {
+              "actions" : [
+                {
+                  "actions" : [
+                    {
+                      "actions" : [
+                        {
+                          "actions" : [
+                            {
+                              "actions" : [
+                                {
+                                  "actions" : [
+                                    {
+                                      "actions" : [
+                                        {
+                                          "key" : "a",
+                                          "label" : "🎊",
+                                          "type" : "url",
+                                          "value" : "raycast://confetti"
+                                        }
+                                      ],
+                                      "key" : "b",
+                                      "label" : "🤫",
+                                      "type" : "group"
+                                    }
+                                  ],
+                                  "key" : "right",
+                                  "label" : "🤫",
+                                  "type" : "group"
+                                }
+                              ],
+                              "key" : "left",
+                              "label" : "🤫",
+                              "type" : "group"
+                            }
+                          ],
+                          "key" : "right",
+                          "label" : "🤫",
+                          "type" : "group"
+                        }
+                      ],
+                      "key" : "left",
+                      "label" : "🤫",
+                      "type" : "group"
+                    }
+                  ],
+                  "key" : "down",
+                  "label" : "🤫",
+                  "type" : "group"
+                }
+              ],
+              "key" : "down",
+              "label" : "🤫",
+              "type" : "group"
+            }
+          ],
+          "key" : "up",
+          "label" : "🤫",
+          "type" : "group"
+        }
+      ],
+      "iconPath" : "gamecontroller",
+      "key" : "up",
+      "label" : "🤫",
+      "type" : "group"
+    },
+    {
+      "key" : "enter",
+      "label" : "Terminal",
+      "type" : "application",
+      "value" : "/Applications/Ghostty.app"
+    }
+  ],
+  "type" : "group"
+}
